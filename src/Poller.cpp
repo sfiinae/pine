@@ -1,5 +1,6 @@
 #include "Poller.h"
 #include "Channel.h"
+#include <cassert>
 
 PollPoller::PollPoller() {}
 

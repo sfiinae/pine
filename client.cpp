@@ -1,6 +1,7 @@
 #include "Socket.h"
 #include <unistd.h>
 #include <iostream>
+#include <cstring>
 
 int main() {
     Socket *sock = new Socket();

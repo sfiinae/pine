@@ -4,6 +4,7 @@
 #include <functional>
 #include <cassert>
 #include <unistd.h>
+#include <cstring>
 
 Connection::Connection(int fd, EventLoop *loop) {
     socket_ = std::make_unique<Socket>();
